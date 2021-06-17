@@ -58,10 +58,15 @@ const Footer = () => {
             </FooterLinkItems>
             <FooterLinkItems>
               <FooterLinkTitle>Social Media</FooterLinkTitle>
-              <FooterLink to='/'>Instagram</FooterLink>
+{/* 
+              component={() => { 
+                   window.location.href = 'https://www.instagram.com/calvin_nguyen.ig/'; 
+                    return null;}} */}
+
+              <FooterLink href='https://www.instagram.com/calvin_nguyen.ig/' target='_blank' aria-label='Instagram'>Instagram</FooterLink>
               <FooterLink to='/'>Facebook</FooterLink>
-              <FooterLink to='/'>Youtube</FooterLink>
-              <FooterLink to='/'>Twitter</FooterLink>
+              <FooterLink to='/'>Linkedin</FooterLink>
+            
             </FooterLinkItems>
           </FooterLinksWrapper>
         </FooterLinksContainer>
@@ -72,28 +77,28 @@ const Footer = () => {
             </SocialLogo>
             <WebsiteRights>Calvin Nguyen © 2020 All rights reserved.</WebsiteRights>
             <SocialIcons>
-              <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
+              <SocialIconLink href='https://www.facebook.com/calvin.nguyen.5099940/' target='_blank' aria-label='Facebook'>
                 <FaFacebook />
               </SocialIconLink>
-              <SocialIconLink href='/' target='_blank' aria-label='Instagram'>
+              <SocialIconLink href='https://www.instagram.com/calvin_nguyen.ig/' target='_blank' aria-label='Instagram'>
                 <FaInstagram />
               </SocialIconLink>
-              <SocialIconLink
+              {/* <SocialIconLink
                 href='//www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A?view_as=subscriber'
                 target='_blank'
                 aria-label='Youtube'
                 rel='noopener noreferrer'
               >
                 <FaYoutube />
-              </SocialIconLink>
-              <SocialIconLink
+              </SocialIconLink> */}
+              {/* <SocialIconLink
                 target='_blank'
                 aria-label='Twitter'
                 href='//www.twitter.com/briandesignz'
               >
                 <FaTwitter />
-              </SocialIconLink>
-              <SocialIconLink href='/' target='_blank' aria-label='Linkedin'>
+              </SocialIconLink> */}
+              <SocialIconLink href='https://www.linkedin.com/in/calvin-nguyen-a13a7419b/' target='_blank' aria-label='Linkedin'>
                 <FaLinkedin />
               </SocialIconLink>
             </SocialIcons>
