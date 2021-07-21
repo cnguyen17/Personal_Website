@@ -63,9 +63,9 @@ const Footer = () => {
                    window.location.href = 'https://www.instagram.com/calvin_nguyen.ig/'; 
                     return null;}} */}
 
-              <FooterLink href='https://www.instagram.com/calvin_nguyen.ig/' target='_blank' aria-label='Instagram'>Instagram</FooterLink>
-              <FooterLink to='/'>Facebook</FooterLink>
-              <FooterLink to='/'>Linkedin</FooterLink>
+              <FooterLink onClick={()=> window.open("https://www.instagram.com/calvin_nguyen.ig/")} target='_blank' aria-label='Instagram'>Instagram</FooterLink>
+              <FooterLink onClick={()=> window.open("https://www.facebook.com/calvin.nguyen.5099940/")} target='_blank' aria-label='Instagram'>Facebook</FooterLink>
+              <FooterLink onClick={()=> window.open("https://www.linkedin.com/in/calvin-nguyen-a13a7419b/")} target='_blank' aria-label='Instagram'>Linkedin</FooterLink>
             
             </FooterLinkItems>
           </FooterLinksWrapper>

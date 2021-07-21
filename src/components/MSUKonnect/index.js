@@ -15,7 +15,7 @@ import {
   Img,
 } from './InfoElements';
 
-const Projects = ({
+const MSUKonnect = ({
   lightBg,
   imgStart,
   topLine,
@@ -88,4 +88,4 @@ const Projects = ({
   );
 };
 
-export default Projects;
+export default MSUKonnect;
