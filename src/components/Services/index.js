@@ -2,6 +2,7 @@ import React from 'react';
 import Icon1 from '../../images/python.png';
 import Icon2 from '../../images/react.png';
 import Icon3 from '../../images/angular.png';
+
 import {
   ServicesContainer,
   ServicesH1,

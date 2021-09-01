@@ -23,7 +23,7 @@ function HeroSection() {
   return (
     <HeroContainer id='home'>
       <HeroBg>
-        <VideoBg playsInline autoPlay loop muted src={Video} type='COAST_short.mp4' />
+        <VideoBg playsInline loop autoPlay  muted src={Video} type='COAST_short.mp4' />
       </HeroBg>
       <HeroContent>
         <HeroH1>Calvin Nguyen</HeroH1>
