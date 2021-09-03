@@ -2,10 +2,11 @@ import React from 'react';
 import {
   FaFacebook,
   FaInstagram,
-  FaYoutube,
-  FaTwitter,
   FaLinkedin
 } from 'react-icons/fa';
+import {
+  HiMail
+} from 'react-icons/hi';
 import { animateScroll as scroll } from 'react-scroll';
 import {
   FooterContainer,
@@ -58,14 +59,12 @@ const Footer = () => {
             </FooterLinkItems>
             <FooterLinkItems>
               <FooterLinkTitle>Social Media</FooterLinkTitle>
-{/* 
-              component={() => { 
-                   window.location.href = 'https://www.instagram.com/calvin_nguyen.ig/'; 
-                    return null;}} */}
-
               <FooterLink onClick={()=> window.open("https://www.instagram.com/calvin_nguyen.ig/")} target='_blank' aria-label='Instagram'>Instagram</FooterLink>
               <FooterLink onClick={()=> window.open("https://www.facebook.com/calvin.nguyen.5099940/")} target='_blank' aria-label='Instagram'>Facebook</FooterLink>
               <FooterLink onClick={()=> window.open("https://www.linkedin.com/in/calvin-nguyen-a13a7419b/")} target='_blank' aria-label='Instagram'>Linkedin</FooterLink>
+              <FooterLink onClick={()=> window.open("mailto:calvin.nguyenco@gmail.com?subject=Let's Talk!")} target='_blank' aria-label='Instagram'>Email</FooterLink>
+
+
             
             </FooterLinkItems>
           </FooterLinksWrapper>
@@ -75,7 +74,7 @@ const Footer = () => {
             <SocialLogo to='/' onClick={toggleHome}>
               Calvin Nguyen
             </SocialLogo>
-            <WebsiteRights>Calvin Nguyen © 2020 All rights reserved.</WebsiteRights>
+            <WebsiteRights>                                              </WebsiteRights>
             <SocialIcons>
               <SocialIconLink href='https://www.facebook.com/calvin.nguyen.5099940/' target='_blank' aria-label='Facebook'>
                 <FaFacebook />
@@ -83,21 +82,15 @@ const Footer = () => {
               <SocialIconLink href='https://www.instagram.com/calvin_nguyen.ig/' target='_blank' aria-label='Instagram'>
                 <FaInstagram />
               </SocialIconLink>
-              {/* <SocialIconLink
-                href='//www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A?view_as=subscriber'
+              <SocialIconLink
+                href="mailto:calvin.nguyenco@gmail.com?subject=Let's Talk!"
                 target='_blank'
-                aria-label='Youtube'
+                aria-label='Email'
                 rel='noopener noreferrer'
               >
-                <FaYoutube />
-              </SocialIconLink> */}
-              {/* <SocialIconLink
-                target='_blank'
-                aria-label='Twitter'
-                href='//www.twitter.com/briandesignz'
-              >
-                <FaTwitter />
-              </SocialIconLink> */}
+                <HiMail />
+              </SocialIconLink>
+            
               <SocialIconLink href='https://www.linkedin.com/in/calvin-nguyen-a13a7419b/' target='_blank' aria-label='Linkedin'>
                 <FaLinkedin />
               </SocialIconLink>
