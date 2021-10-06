@@ -13,6 +13,7 @@ import {
   BtnWrap,
   ImgWrap,
   Img,
+  spacer
 } from './InfoElements';
 
 const MSUKonnect = ({
@@ -58,9 +59,10 @@ const MSUKonnect = ({
                   >
                     {buttonLabel}
                   </Button>
-                  <space>"         "</space>
+                <spacer>&nbsp; &nbsp;</spacer>
+
                   <Button
-                    marginleft = {100}
+                    marginleft = {10000}
                     onClick={()=> window.open("https://drive.google.com/file/d/1CtCpoV64vt48949Aj734hYDqGTdVe-S1/view?usp=sharing")}
                     smooth={true}
                     duration={500}
@@ -73,6 +75,7 @@ const MSUKonnect = ({
                   >
                     {buttonLabel2}
                   </Button>
+                  
                 </BtnWrap>
               </TextWrapper>
             </Column1>

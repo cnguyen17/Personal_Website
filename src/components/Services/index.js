@@ -29,7 +29,7 @@ const Services = () => {
           <ServicesIcon src={Icon2} />
           <ServicesH2>React Native</ServicesH2>
           <ServicesP>
-            I developed both EESANA and this website using React Native. This framework is based of the use of javascript, HTML, and CSS .
+            I developed both EESANA and my portfolio website using React Native.
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
