@@ -19,9 +19,9 @@ export const projectOne = {
 };
 export const projectTwo = {
   id: 'Project',
-  lightBg: true,
-  lightText: false,
-  lightTextDesc: false,
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
   topLine: 'Project 2',
   headline: 'EESANA',
   description:
@@ -30,7 +30,7 @@ export const projectTwo = {
   imgStart: false,
   img: require('../../images/eesana.png'),
   alt: 'Papers',
-  dark: false,
-  primary: false,
-  darkText: true
+  dark: true,
+  primary: true,
+  darkText: false
 };

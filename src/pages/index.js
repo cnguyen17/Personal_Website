@@ -19,6 +19,8 @@ import {projectOne,projectTwo,} from '../components/MSUKonnect/Data';
 
 
 import Services from '../components/Services';
+import Internships from '../components/Internships';
+
 
 function Home() {
   const [isOpen, setIsOpen] = useState(false);
@@ -36,7 +38,7 @@ function Home() {
       <Services />
       <MSUKonnect {...projectOne} />
       <MSUKonnect {...projectTwo} />
-      
+      <Internships/>
       <InfoSection {...Contact} />
       <Footer />
     </>
