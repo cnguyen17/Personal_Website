@@ -14,23 +14,23 @@ export const projectOne = {
   
   alt: 'Piggybank',
   dark: false,
-  primary: false,
+  primary: true,
   darkText: true
 };
-export const projectTwo = {
-  id: 'Project',
-  lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
-  topLine: 'Project 2',
-  headline: 'EESANA',
-  description:
-    "Helped develop and deploy website for Eritrean Ethiopian Student Association (EESANA) was established in March 2020 by students to bridge the gap between different Eritrean Ethiopian Student Associations across college campuses and their respective countries.",
-  buttonLabel: 'React Native',
-  imgStart: false,
-  img: require('../../images/eesana.png'),
-  alt: 'Papers',
-  dark: true,
-  primary: true,
-  darkText: false
-};
+// export const projectTwo = {
+//   id: 'Project',
+//   lightBg: false,
+//   lightText: true,
+//   lightTextDesc: true,
+//   topLine: 'Project 2',
+//   headline: 'EESANA',
+//   description:
+//     "Helped develop and deploy website for Eritrean Ethiopian Student Association (EESANA) was established in March 2020 by students to bridge the gap between different Eritrean Ethiopian Student Associations across college campuses and their respective countries.",
+//   buttonLabel: 'React Native' ,
+//   imgStart: false,
+//   img: require('../../images/eesana.png'),
+//   alt: 'Papers',
+//   dark: true,
+//   primary: true,
+//   darkText: false
+// };

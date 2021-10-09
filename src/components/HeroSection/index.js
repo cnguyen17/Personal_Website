@@ -33,7 +33,7 @@ function HeroSection() {
         </HeroP>
         <HeroBtnWrapper>
           <Button
-            href='signin'
+            to='signup'
             smooth={true}
             duration={500}
             spy={true}

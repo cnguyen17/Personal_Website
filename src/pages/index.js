@@ -15,11 +15,14 @@ import {
 import Resume from '../components/Resume';
 import {Experience} from '../components/Resume/Data';
 import MSUKonnect from '../components/MSUKonnect';
-import {projectOne,projectTwo,} from '../components/MSUKonnect/Data';
+import {projectOne,} from '../components/MSUKonnect/Data';
+import EESANA from '../components/eesana';
+import{projectTwo} from '../components/eesana/Data';
 
 
 import Services from '../components/Services';
 import Internships from '../components/Internships';
+
 
 
 function Home() {
@@ -37,7 +40,7 @@ function Home() {
       <Resume {...Experience}/>
       <Services />
       <MSUKonnect {...projectOne} />
-      <MSUKonnect {...projectTwo} />
+      <EESANA {...projectTwo}/>
       <Internships/>
       <InfoSection {...Contact} />
       <Footer />
