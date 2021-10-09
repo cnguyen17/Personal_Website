@@ -22,7 +22,8 @@ import {
   SocialLogo,
   WebsiteRights,
   SocialIcons,
-  SocialIconLink
+  SocialIconLink,
+  Img
 } from './FooterElements';
 
 
@@ -37,9 +38,12 @@ const Footer = () => {
     scroll.scrollToTop();
   };
   return (
+    
     <FooterContainer>
       <FooterWrap>
+      
         <FooterLinksContainer>
+        <Img  src={ require('../../images/svg-1.svg')}/>
           {/* <FooterLinksWrapper>
             <FooterLinkItems>
               <FooterLinkTitle>About Us</FooterLinkTitle>
@@ -57,14 +61,14 @@ const Footer = () => {
               <FooterLink to='/'>Sponsorships</FooterLink>
             </FooterLinkItems>
           </FooterLinksWrapper> */}
+          
           <FooterLinksWrapper>
+
+            <Img  src={ require('../../images/svg-2.svg')} >
+            
+            </Img>
             <FooterLinkItems>
-              {/* <TypingText /> */}
-              <FooterLinkTitle>Please checkout and follow any of my Social Media accounts!</FooterLinkTitle>
-              <FooterLink to='/'>Submit Video</FooterLink>
-              <FooterLink to='/'>Ambassadors</FooterLink>
-              <FooterLink to='/'>Agency</FooterLink>
-              <FooterLink to='/'>Influencer</FooterLink>
+
             </FooterLinkItems>
             <FooterLinkItems>
               <FooterLinkTitle>Social Media</FooterLinkTitle>
@@ -73,8 +77,6 @@ const Footer = () => {
               <FooterLink onClick={()=> window.open("https://www.linkedin.com/in/calvin-nguyen-a13a7419b/")} target='_blank' aria-label='Instagram'>Linkedin</FooterLink>
               <FooterLink onClick={()=> window.open("mailto:calvin.nguyenco@gmail.com?subject=Let's Talk!")} target='_blank' aria-label='Instagram'>Email</FooterLink>
 
-
-            
             </FooterLinkItems>
           </FooterLinksWrapper>
         </FooterLinksContainer>

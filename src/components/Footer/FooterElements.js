@@ -111,3 +111,11 @@ export const SocialIconLink = styled.a`
   color: #fff;
   font-size: 24px;
 `;
+export const Img = styled.img`
+  width: 25%;
+  margin-top: 0;
+  margin-right: 0;
+  margin-left: 50-px;
+  padding-right: 0;
+  text-align: justify;
+`;
