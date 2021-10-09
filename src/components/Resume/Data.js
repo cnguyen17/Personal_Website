@@ -31,7 +31,7 @@ export const Experience = {
   headline: 'Resume',
   // description1:
   //   "When I am not doing anythign relaated to coding, I enjoy spending my time working out, Playing guitar, Hiking, and Learning new skills",
-  buttonLabel: 'Get Started',
+  buttonLabel: 'Click to Download',
   imgStart: true,
   img: require('../../images/Resume.jpg'),
   alt: 'Car',
@@ -39,7 +39,14 @@ export const Experience = {
   primary: true,
   darkText: true
 };
-
+export function swipe() {
+  var largeImage = document.getElementById('largeImage');
+  largeImage.style.display = 'block';
+  largeImage.style.width=200+"px";
+  largeImage.style.height=200+"px";
+  var url=largeImage.getAttribute('src');
+  window.open(url,'Image','width=largeImage.stylewidth,height=largeImage.style.height,resizable=1');
+}
 // export const projectOne = {
 //   id: 'Project',
 //   lightBg: true,

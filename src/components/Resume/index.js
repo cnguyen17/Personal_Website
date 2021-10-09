@@ -44,7 +44,7 @@ const Resume = ({
                 <Subtitle darkText={darkText}>{description}</Subtitle>
                 <BtnWrap>
                   <Button
-                    to='home'
+                    onClick={()=> window.open(require('../../images/Resume.pdf'))}
                     smooth={true}
                     duration={500}
                     spy={true}
@@ -62,7 +62,9 @@ const Resume = ({
             <Column2>
             {/* Need to figure out download function for resume or enlarge */}
               <ImgWrap>
-                <Img src={img} alt={alt} />
+                <Img src={img} alt={alt} 
+                onClick={()=> window.open(require('../../images/Resume.pdf'))}
+                />              
               </ImgWrap>
             </Column2>
           </InfoRow>

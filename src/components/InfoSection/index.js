@@ -44,7 +44,7 @@ const InfoSection = ({
                 <Subtitle darkText={darkText}>{description}</Subtitle>
                 <BtnWrap>
                   <Button
-                    to='/signin'
+                    onClick={()=> window.open("mailto:calvin.nguyenco@gmail.com?subject=Let's Talk!")}
                     smooth={true}
                     duration={500}
                     spy={true}

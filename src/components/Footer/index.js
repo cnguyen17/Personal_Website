@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { Component } from 'react';
+
 import {
   FaFacebook,
   FaInstagram,
@@ -24,6 +25,13 @@ import {
   SocialIconLink
 } from './FooterElements';
 
+
+// class TypingText extends Component {
+//   render() {
+//     return <TypeWriter typing={1}>Calvin</TypeWriter>
+//   }
+// }
+
 const Footer = () => {
   const toggleHome = () => {
     scroll.scrollToTop();
@@ -32,7 +40,7 @@ const Footer = () => {
     <FooterContainer>
       <FooterWrap>
         <FooterLinksContainer>
-          <FooterLinksWrapper>
+          {/* <FooterLinksWrapper>
             <FooterLinkItems>
               <FooterLinkTitle>About Us</FooterLinkTitle>
               <FooterLink to='/sign-up'>How it works</FooterLink>
@@ -45,13 +53,14 @@ const Footer = () => {
               <FooterLinkTitle>Contact Us</FooterLinkTitle>
               <FooterLink to='/'>Contact</FooterLink>
               <FooterLink to='/'>Support</FooterLink>
-              <FooterLink to='/'>Destinations</FooterLink>
+              <FooterLink to='/'>Destinations</FooterLink>y
               <FooterLink to='/'>Sponsorships</FooterLink>
             </FooterLinkItems>
-          </FooterLinksWrapper>
+          </FooterLinksWrapper> */}
           <FooterLinksWrapper>
             <FooterLinkItems>
-              <FooterLinkTitle>Videos</FooterLinkTitle>
+              {/* <TypingText /> */}
+              <FooterLinkTitle>Please checkout and follow any of my Social Media accounts!</FooterLinkTitle>
               <FooterLink to='/'>Submit Video</FooterLink>
               <FooterLink to='/'>Ambassadors</FooterLink>
               <FooterLink to='/'>Agency</FooterLink>
