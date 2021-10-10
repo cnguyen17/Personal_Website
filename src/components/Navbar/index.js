@@ -39,7 +39,7 @@ const Navbar = ({ toggle }) => {
         <Nav scrollNav={scrollNav}>
           <NavbarContainer>
             <NavLogo onClick={toggleHome} to='/'>
-              Calvin Logo
+              <img src={require('../../images/logo.png')} height={75} width={280} alt = " " />
             </NavLogo>
             <MobileIcon onClick={toggle}>
               <FaBars />
