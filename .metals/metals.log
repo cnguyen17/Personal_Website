@@ -24,3 +24,13 @@ INFO: Unsupported notification method: $/setTrace
 [0m2021.09.01 15:39:25 INFO  time: initialize in 4.2s[0m
 [0m2021.09.01 15:39:30 WARN  Build server is not auto-connectable.[0m
 [0m2021.09.01 15:39:30 WARN  no build tool detected in workspace 'C:\Users\SURFACE\Developer\Personal_projects\Personal Website\Website\Personal_website'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.10.09 14:20:27 INFO  Started: Metals version 0.10.7 in workspace 'C:\Users\SURFACE\Developer\Personal_projects\New_Personal\Personal_website' for client Visual Studio Code 1.61.0.[0m
+[0m2021.10.09 14:20:34 INFO  time: initialize in 7.66s[0m
+[0m2021.10.09 14:20:40 WARN  Build server is not auto-connectable.[0m
+[0m2021.10.09 14:20:40 WARN  no build tool detected in workspace 'C:\Users\SURFACE\Developer\Personal_projects\New_Personal\Personal_website'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.10.10 16:17:54 INFO  shutting down Metals[0m
+[0m2021.10.10 16:43:56 INFO  Started: Metals version 0.10.7 in workspace 'C:\Users\SURFACE\Developer\Personal_projects\New_Personal\Personal_website' for client Visual Studio Code 1.61.0.[0m
+[0m2021.10.10 16:43:59 INFO  time: initialize in 3.32s[0m
+[0m2021.10.10 16:44:00 WARN  Build server is not auto-connectable.[0m
+[0m2021.10.10 16:44:00 WARN  no build tool detected in workspace 'C:\Users\SURFACE\Developer\Personal_projects\New_Personal\Personal_website'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.10.10 16:44:10 INFO  shutting down Metals[0m
