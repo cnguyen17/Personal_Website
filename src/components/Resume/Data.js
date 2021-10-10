@@ -8,7 +8,7 @@ export const Experience = {
   topLine: 'Experience',
   
   description:
-    "Hey! I'm Calvin, a Software Engineer based in Denver, CO. I love to work on a plethora of projects relating to coding and engineering that ignite my passions and push me to learn and experience more.",
+    "Feel free to click the button below to download my resume and take a better look at what accompliments and projects I've worked on",
   headline: 'Resume',
   // description1:
   //   "When I am not doing anythign relaated to coding, I enjoy spending my time working out, Playing guitar, Hiking, and Learning new skills",

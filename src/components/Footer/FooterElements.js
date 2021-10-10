@@ -50,6 +50,7 @@ export const FooterLinkItems = styled.div`
 `;
 
 export const FooterLinkTitle = styled.h1`
+  color: #fff;
   font-size: 14px;
   margin-bottom: 16px;
 `;
@@ -115,7 +116,14 @@ export const Img = styled.img`
   width: 25%;
   margin-top: 0;
   margin-right: 0;
-  margin-left: 50-px;
+  margin-left: 100-px;
   padding-right: 0;
+  text-align: justify;
+`;
+export const Spacer = styled.img`
+  width: 40%;
+  margin-top: 0;
+  margin-left: 130-px;
+  padding-left: 125px;
   text-align: justify;
 `;

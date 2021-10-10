@@ -23,7 +23,8 @@ import {
   WebsiteRights,
   SocialIcons,
   SocialIconLink,
-  Img
+  Img,
+  Spacer
 } from './FooterElements';
 
 
@@ -41,32 +42,13 @@ const Footer = () => {
     
     <FooterContainer>
       <FooterWrap>
-      
         <FooterLinksContainer>
         <Img  src={ require('../../images/svg-1.svg')}/>
-          {/* <FooterLinksWrapper>
-            <FooterLinkItems>
-              <FooterLinkTitle>About Us</FooterLinkTitle>
-              <FooterLink to='/sign-up'>How it works</FooterLink>
-              <FooterLink to='/'>Testimonials</FooterLink>
-              <FooterLink to='/'>Careers</FooterLink>
-              <FooterLink to='/'>Investors</FooterLink>
-              <FooterLink to='/'>Terms of Service</FooterLink>
-            </FooterLinkItems>
-            <FooterLinkItems>
-              <FooterLinkTitle>Contact Us</FooterLinkTitle>
-              <FooterLink to='/'>Contact</FooterLink>
-              <FooterLink to='/'>Support</FooterLink>
-              <FooterLink to='/'>Destinations</FooterLink>y
-              <FooterLink to='/'>Sponsorships</FooterLink>
-            </FooterLinkItems>
-          </FooterLinksWrapper> */}
-          
           <FooterLinksWrapper>
 
-            <Img  src={ require('../../images/svg-2.svg')} >
-            
-            </Img>
+            <Spacer  src={ require('../../images/svg-2.svg')} >
+              
+            </Spacer>
             <FooterLinkItems>
 
             </FooterLinkItems>
@@ -85,6 +67,7 @@ const Footer = () => {
             <SocialLogo to='/' onClick={toggleHome}>
               <img src={require('../../images/logo4.png')} height={75} width={235} alt = " " />
             </SocialLogo>
+            <FooterLinkTitle>Feel Free to follow my Socials as well!</FooterLinkTitle>
             <WebsiteRights>                                              </WebsiteRights>
             <SocialIcons>
               <SocialIconLink href='https://www.facebook.com/calvin.nguyen.5099940/' target='_blank' aria-label='Facebook'>
