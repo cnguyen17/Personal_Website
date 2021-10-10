@@ -23,7 +23,7 @@ const Internships = () => {
           <ServicesIcon src={Icon1} />
           {/* <ServicesH2>Travelport</ServicesH2> */}
           <ServicesP>
-            Interned as a Devops position where worked on implementing solutions to multiple Microservices and API's
+            Interned as a DevOps position where I worked on implementing solutions to multiple Microservices and API's.
           </ServicesP>
         </ServicesCard>
 
@@ -31,7 +31,7 @@ const Internships = () => {
           <ServicesIcon src={Icon2} />
           {/* <ServicesH2>DevilDog Cybersecurity Intern</ServicesH2> */}
           <ServicesP>
-           Cybersecurity Intern involved with vulnrability testing and automating hundreds of official documents.
+          Cybersecurity Intern involved with vulnerability testing and automating hundreds of official documents.
           </ServicesP>
         </ServicesCard>
 
@@ -39,7 +39,7 @@ const Internships = () => {
           <ServicesIcon src={Icon3} />
           {/* <ServicesH2>JP-Morgan Chase Software Engineering Virutal Internship</ServicesH2> */}
           <ServicesP>
-            Virtual Software Engineering intern that helped develop programs that helped visualize and analyze share prices data for traders
+            Virtual Software Engineering intern that helped develop programs that helped visualize and analyze share prices data for traders.
           </ServicesP>
         </ServicesCard>
 
@@ -47,8 +47,8 @@ const Internships = () => {
           <ServicesIcon src={Icon4} />
           {/* <ServicesH2>Charles Schwab</ServicesH2> */}
           <ServicesP>
-           Development program to help students recieve executive level coaching, interview preparation, and networking opportunities. 
-          </ServicesP>
+           Development program to help students receive executive level coaching, interview preparation, and networking opportunities.          
+            </ServicesP>
         </ServicesCard>
       </ServicesWrapper>
     </ServicesContainer>
