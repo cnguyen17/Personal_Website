@@ -23,7 +23,7 @@ const Internships = () => {
           <ServicesIcon src={Icon1} />
           {/* <ServicesH2>Travelport</ServicesH2> */}
           <ServicesP>
-            Interned as a Devops position where worked on implementing solutions to multiple Microserviecs and API's
+            Interned as a Devops position where worked on implementing solutions to multiple Microservices and API's
           </ServicesP>
         </ServicesCard>
 

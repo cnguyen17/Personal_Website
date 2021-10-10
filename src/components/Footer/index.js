@@ -83,7 +83,7 @@ const Footer = () => {
         <SocialMedia>
           <SocialMediaWrap>
             <SocialLogo to='/' onClick={toggleHome}>
-              <img src={require('../../images/logo.png')} height={75} width={280} alt = " " />
+              <img src={require('../../images/logo4.png')} height={75} width={235} alt = " " />
             </SocialLogo>
             <WebsiteRights>                                              </WebsiteRights>
             <SocialIcons>
