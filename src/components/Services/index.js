@@ -22,7 +22,7 @@ const Services = () => {
           <ServicesIcon src={Icon1} />
           <ServicesH2>Python</ServicesH2>
           <ServicesP>
-            Coded a span of projects in Python and and is my strongest coding language.
+            Coded a span of projects in Python and it is my strongest coding language.
           </ServicesP>
         </ServicesCard>
         <ServicesCard>

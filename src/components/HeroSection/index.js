@@ -28,7 +28,7 @@ function HeroSection() {
       <HeroContent>
         <HeroH1>Calvin Nguyen</HeroH1>
         <HeroP>
-          I'm a final-year student at Metropolitan State University of Denver majoring in Computer Science and minoring in Mathematics and Management, with aspirations to become a 
+          I'm a student at Metropolitan State University of Denver in my final year. I am majoring in Computer Science and minoring in Mathematics and Management, with aspirations to become a 
           software engineer. 
         </HeroP>
         <HeroBtnWrapper>

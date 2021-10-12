@@ -3,7 +3,8 @@ import React, { Component } from 'react';
 import {
   FaFacebook,
   FaInstagram,
-  FaLinkedin
+  FaLinkedin,
+  FaGithub
 } from 'react-icons/fa';
 import {
   HiMail
@@ -58,7 +59,7 @@ const Footer = () => {
               <FooterLink onClick={()=> window.open("https://www.facebook.com/calvin.nguyen.5099940/")} target='_blank' aria-label='Instagram'>Facebook</FooterLink>
               <FooterLink onClick={()=> window.open("https://www.linkedin.com/in/calvin-nguyen-a13a7419b/")} target='_blank' aria-label='Instagram'>Linkedin</FooterLink>
               <FooterLink onClick={()=> window.open("mailto:calvin.nguyenco@gmail.com?subject=Let's Talk!")} target='_blank' aria-label='Instagram'>Email</FooterLink>
-
+              <FooterLink onClick={()=> window.open("https://github.com/cnguyen17")} target='_blank' aria-label='Instagram'>GitHub</FooterLink>
             </FooterLinkItems>
           </FooterLinksWrapper>
         </FooterLinksContainer>
@@ -87,6 +88,9 @@ const Footer = () => {
             
               <SocialIconLink href='https://www.linkedin.com/in/calvin-nguyen-a13a7419b/' target='_blank' aria-label='Linkedin'>
                 <FaLinkedin />
+              </SocialIconLink>
+              <SocialIconLink href='https://github.com/cnguyen17' target='_blank' aria-label='GitHub'>
+                <FaGithub />
               </SocialIconLink>
             </SocialIcons>
           </SocialMediaWrap>

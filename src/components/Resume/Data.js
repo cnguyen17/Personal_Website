@@ -8,7 +8,7 @@ export const Experience = {
   topLine: 'Experience',
   
   description:
-    "Feel free to click the button below to download my resume and take a better look at what accompliments and projects I've worked on.",
+    "Feel free to click the button below to download my resume and take a better look at my accomplishments and projects I've worked on.",
   headline: 'Resume',
   // description1:
   //   "When I am not doing anythign relaated to coding, I enjoy spending my time working out, Playing guitar, Hiking, and Learning new skills",

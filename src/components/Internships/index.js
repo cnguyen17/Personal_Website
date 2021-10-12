@@ -23,7 +23,7 @@ const Internships = () => {
           <ServicesIcon src={Icon1} />
           {/* <ServicesH2>Travelport</ServicesH2> */}
           <ServicesP>
-            Interned as a DevOps position where I worked on implementing solutions to multiple Microservices and API's.
+            Interned as a DevOps position, where I worked on implementing solutions to multiple Microservices and API's.
           </ServicesP>
         </ServicesCard>
 
@@ -39,7 +39,7 @@ const Internships = () => {
           <ServicesIcon src={Icon3} />
           {/* <ServicesH2>JP-Morgan Chase Software Engineering Virutal Internship</ServicesH2> */}
           <ServicesP>
-            Virtual Software Engineering intern that helped develop programs that helped visualize and analyze share prices data for traders.
+            Virtual Software Engineering intern that develop programs that helped visualize and analyze share prices data for traders.
           </ServicesP>
         </ServicesCard>
 
