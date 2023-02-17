@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {ReactComponent as Icon} from '../../images/svg-2.svg';
 
 import {
   FaFacebook,
@@ -44,10 +45,10 @@ const Footer = () => {
     <FooterContainer>
       <FooterWrap>
         <FooterLinksContainer>
-        <Img  src={ require('../../images/svg-1.svg')}/>
+        <Img  src={ require('../../images/svg-1.png')}/>
           <FooterLinksWrapper>
 
-            <Spacer  src={ require('../../images/svg-2.svg')} >
+            <Spacer  src={ require('../../images/svg-2.png')} >
               
             </Spacer>
             <FooterLinkItems>

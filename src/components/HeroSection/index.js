@@ -11,7 +11,8 @@ import {
   HeroP,
   HeroBtnWrapper,
   ArrowForward,
-  ArrowRight
+  ArrowRight,
+  Img
 } from './HeroElements';
 
 function HeroSection() {
@@ -26,14 +27,14 @@ function HeroSection() {
         <VideoBg playsInline loop autoPlay  muted src={Video} type='COAST_short.mp4' />
       </HeroBg>
       <HeroContent>
+        <Img  src={ require('../../images/Profileborder.png')}/>
         <HeroH1>Calvin Nguyen</HeroH1>
         <HeroP>
-          I'm a student at Metropolitan State University of Denver in my final year. I am majoring in Computer Science and minoring in Mathematics and Management, with aspirations to become a 
-          software engineer. 
+        Former Production Service Engineer @ Zoom - DevOps - Software Engineer - Cybersecurity  
         </HeroP>
         <HeroBtnWrapper>
           <Button
-            to='signup'
+            to='about'
             smooth={true}
             duration={500}
             spy={true}
@@ -44,7 +45,7 @@ function HeroSection() {
             onMouseEnter={onHover}
             onMouseLeave={onHover}
           >
-            Contact Me! {hover ? <ArrowForward /> : <ArrowRight />}
+            Enter Portfolio {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
         </HeroBtnWrapper>
       </HeroContent>

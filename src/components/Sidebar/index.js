@@ -37,7 +37,7 @@ const Sidebar = ({ isOpen, toggle }) => {
             exact='true'
             offset={-80}
           >
-            Experience
+            Resume
           </SidebarLink>
           <SidebarLink
             to='services'

@@ -67,7 +67,7 @@ export const HeroContent = styled.div`
 
 export const HeroH1 = styled.h1`
   color: #fff;
-  font-size: 48px;
+  font-size: 58px;
   text-align: center;
 
   @media screen and (max-width: 768px) {
@@ -82,7 +82,7 @@ export const HeroH1 = styled.h1`
 export const HeroP = styled.p`
   margin-top: 24px;
   color: #fff;
-  font-size: 16px;
+  font-size: 24px;
   text-align: center ;
   max-width: 600px;
 
@@ -109,4 +109,12 @@ export const ArrowForward = styled(MdArrowForward)`
 export const ArrowRight = styled(MdKeyboardArrowRight)`
   margin-left: 8px;
   font-size: 20px;
+`;
+export const Img = styled.img`
+  width: 50%;
+  margin-top: 0;
+  margin-right: 0;
+  margin-left: 100-px;
+  padding-right: 0;
+  text-align: justify;
 `;

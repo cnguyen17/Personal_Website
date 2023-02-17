@@ -66,7 +66,7 @@ const Navbar = ({ toggle }) => {
                   exact='true'
                   offset={-80}
                 >
-                  Experience
+                  Resume
                 </NavLinks>
               </NavItem>
 
@@ -105,7 +105,7 @@ const Navbar = ({ toggle }) => {
                   exact='true'
                   offset={-80}
                 >
-                  Internships
+                  Work Experience
                 </NavLinks>
               </NavItem>
 

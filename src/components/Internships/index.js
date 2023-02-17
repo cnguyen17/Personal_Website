@@ -3,6 +3,7 @@ import Icon1 from '../../images/Travelport.jpg';
 import Icon2 from '../../images/DevilDog.png';
 import Icon3 from '../../images/jpmorgan.png';
 import Icon4 from '../../images/Charles.jpg';
+import Icon5 from '../../images/Zoom-Logo.png'
 
 import {
   ServicesContainer,
@@ -17,8 +18,17 @@ import {
 const Internships = () => {
   return (
     <ServicesContainer id='Internships'>
-      <ServicesH1>My Internships</ServicesH1>
+      <ServicesH1>Work Experiences</ServicesH1>
       <ServicesWrapper>
+
+      <ServicesCard onClick={()=> window.open("https://zoom.us/")}>
+          <ServicesIcon src={Icon5} />
+          {/* <ServicesH2>Travelport</ServicesH2> */}
+          <ServicesP>
+            Production Service Engineer focused on taking on escalations related to service quality issues with Zoom Room, where I would investigate complex issues using WEB/Client/Server/Database service across different OS environments and platforms.
+          </ServicesP>
+        </ServicesCard>
+
         <ServicesCard onClick={()=> window.open("https://www.travelport.com/")}>
           <ServicesIcon src={Icon1} />
           {/* <ServicesH2>Travelport</ServicesH2> */}
