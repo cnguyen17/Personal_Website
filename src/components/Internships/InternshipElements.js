@@ -79,7 +79,7 @@ export const ServicesH2 = styled.h2`
 `;
 
 export const ServicesP = styled.p`
-  font-size: 1rem;
+  font-size: 12px;
   color: #fff;
   text-align: center;
 `;
