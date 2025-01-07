@@ -114,3 +114,11 @@ export const Konnect = styled.video`
   object-fit: cover;
   background: #232a34;
 `;
+
+export const Video = styled.video`
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+  object-fit: cover;
+  background: #232a34;
+`;

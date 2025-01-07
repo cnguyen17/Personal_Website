@@ -18,6 +18,10 @@ import MSUKonnect from '../components/MSUKonnect';
 import {projectOne,} from '../components/MSUKonnect/Data';
 import EESANA from '../components/eesana';
 import{projectTwo} from '../components/eesana/Data';
+import Pacer from '../components/Pacer'
+import { projectThree } from '../components/Pacer/Data';
+import Scout from '../components/Scout';
+import { projectFour } from '../components/Scout/Data';
 
 
 import Services from '../components/Services';
@@ -41,6 +45,9 @@ function Home() {
       <Services />
       <MSUKonnect {...projectOne} />
       <EESANA {...projectTwo}/>
+      <Pacer {...projectThree} />
+      <Scout {...projectFour} />
+      
       <Internships/>
       <InfoSection {...Contact} />
       <Footer />

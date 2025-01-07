@@ -6,7 +6,8 @@ export const InfoContainer = styled.div`
 
   @media screen and (max-width: 768px) {
     padding: 100px 0;
-    padding: 50px
+    padding: 50px;
+
   }
 `;
 
@@ -110,6 +111,14 @@ export const Img = styled.img`
 export const Konnect = styled.video`
   width: 100%;
   height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  background: #232a34;
+`;
+
+export const Video = styled.video`
+  width: 100%;
+  height: auto;
   -o-object-fit: cover;
   object-fit: cover;
   background: #232a34;
