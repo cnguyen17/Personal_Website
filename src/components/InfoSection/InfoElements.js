@@ -94,12 +94,14 @@ export const ImgWrap = styled.div`
 `;
 
 export const Img = styled.img`
-  width: 100%;
+  width: 70%;
   margin-top: 0;
   margin-right: 0;
   margin-left: 10px;
   padding-right: 0;
+  padding-bottom: 50px;
 `;
+
 export const Konnect = styled.video`
   width: 100%;
   height: 100%;

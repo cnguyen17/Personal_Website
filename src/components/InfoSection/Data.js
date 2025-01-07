@@ -9,7 +9,7 @@ export const homeObjOne = {
     "Welcome! I'm Calvin, an aspiring Software Engineer located in Los Angeles, CA. I have a passion for working on diverse projects that encompass coding, management, and engineering. My technical background is quite extensive, ranging from Cybersecurity, Software Development, DevOps, Service Engineering, Networking, to Operating System troubleshooting. I've developed a unique set of skills that I've demonstrated through the successful delivery of various projects, and I have a talent for quickly learning new technologies. I strongly believe that collaboration, accountability, and teamwork are essential ingredients for success. I'm not afraid to take risks and step outside my comfort zone, and I embrace failures as opportunities for growth. Please feel free to explore my website to learn more about me. If you have any inquiries or want to collaborate, let's connect!",
   headline: 'My Personal Interests',
   description1:
-    "When I am not doing anythign relaated to coding, I enjoy spending my time working out, Playing guitar, Hiking, and Learning new skills",
+    "When I am not doing anything related to coding, I enjoy spending my time working out, Playing guitar, Hiking, and Learning new skills",
   buttonLabel: 'Contact Me',
   imgStart: false,
   img: require('../../images/Calvin.JPG'),
